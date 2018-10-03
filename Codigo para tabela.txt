@@ -1,0 +1,16 @@
+
+Codigo para JTable em swing: 
+
+ DefaultTableModel tabela = (DefaultTableModel ) nomeTabela.getModel(); 
+ 
+ tabela.addRow(new String[] {camp1,camp2,camp3,...})
+
+Apagar Linha selecionada:
+ 
+ ((DefaultTableModel ) nomeTabela.getModel()).removeRow(nTable.getSelectRow()); 
+
+JComboBox
+
+  JComboBox.addItem(item);  adiciona um item
+  JComboBox.getSelectedObjects(); retorna um array de objetos; 
+  JComboBox.getSelectedItem(); retorna a referencia para o item; 
