@@ -44,8 +44,5 @@ public class Insumo extends Produto{
        // return "Insumo{Nome: " + this.getNome()+" | "+ estoque.toString()+'}';
        return "" + super.toString() + "|" /*+ "Fornecedor" + this.getFornecedor()*/; 
     }
-    
-    
-    
-    
+ 
 }

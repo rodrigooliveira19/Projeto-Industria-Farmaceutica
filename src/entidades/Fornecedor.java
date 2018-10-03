@@ -64,11 +64,6 @@ public class Fornecedor {
     @Override
     public String toString() {
         return "Fornecedor{" + "fornecedorId=" + fornecedorId + ", nome=" + nome + ", cgc=" + cgc + ", webService=" + webService + '}';
-    }
-    
-    
-    
-    
-    
+    }   
     
 }

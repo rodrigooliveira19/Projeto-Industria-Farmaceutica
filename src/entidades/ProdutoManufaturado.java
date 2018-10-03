@@ -36,14 +36,6 @@ public class ProdutoManufaturado extends Produto{
         Estoque estoque = this.getEstoque(); 
        // return "Produto Manufaturado{Nome: " + this.getNome()+" | "+ estoque.toString() +'}';
        return ""+ super.toString(); 
-    }
-    
-
-
-
-    
-    
-    
-    
+    }  
     
 }

@@ -47,9 +47,5 @@ public class SolicitacaoDeMaterial {
         return "SolicitacaoDeMaterial{" + "fornecedor=" + this.getFornecedor() + ", insumo=" + this.getInsumo() + 
                                                                                                 ", qtd=" + this.getQtd() + '}';
     }
-    
-    
-    
-    
-    
+   
 }

@@ -44,10 +44,6 @@ public class Estoque {
     @Override
     public String toString() {
         return "Estoque{" + "valorminimo=" + this.valorminimo + ", valorMaximo=" + this.valorMaximo + ", valorAtual=" + this.valorAtual + '}';
-    }
-    
-    
-    
-    
+    } 
     
 }

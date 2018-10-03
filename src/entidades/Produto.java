@@ -72,17 +72,11 @@ public abstract class Produto  {
     public void setEstoque(Estoque estoque) {
         this.estoque = estoque;
     }
-    
-    
-    
-    //Metodos 
 
     @Override
     public String toString() {
         return "Produto{" + "TIPO=" + TIPO + ", produtoId=" + produtoId + ", nome=" + nome + 
                 ", formulaQuimica=" + formulaQuimica + ", grauToxico=" + grauToxico + ", estoque=" + estoque + '}';
     }
-    
-    
-    
+  
 }

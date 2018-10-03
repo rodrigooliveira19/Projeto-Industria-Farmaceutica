@@ -36,7 +36,4 @@ public class Componente {
         this.produtoId = produtoId;
     }
     
-    
-    
-    
 }
